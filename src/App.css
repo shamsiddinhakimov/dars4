@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(-25deg, rgb(0, 145, 255), #FFF);
+    background-repeat: repeat;
+    color: #FFF;
+}
+
+.container {
+    position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    
+}
+
+.add {
+    margin-top: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.weather {
+    text-align: center;
+    margin-top: 125px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:center;
+    margin-bottom: 100px;
+}
+
+.weather h3 {
+    font-size: 50px;
+}
+
+.weather h3 span {
+    color: red;
+    margin-left: 30px;
+}
+
+.wrapper input {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+
+    margin-top: 20px;
+    outline: none;
+    font-size: 20px;
+}
+
+.wrapper input:focus::placeholder {
+    color: #FFF;
+}
+
+.btn {
+    
+    width: 300px;
+    height: 80px;
+    
+    padding: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 100px;
+  
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 200);
+    transition: all 0.3s;
+    color: #b2b2b2;
+}
+
+.set {
+    margin-top: 656px;
+}
+.btn-father{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
